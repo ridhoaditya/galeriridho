@@ -1,0 +1,119 @@
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul>li {
+    list-style: none;
+}
+
+#galeri .row img {
+    margin-bottom: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+#galeri a {
+    position: relative;
+}
+
+#galeri a>div {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    z-index: 99;
+}
+
+#menu ul {
+    display: block;
+    width: 100%;
+}
+
+#menu ul li {
+    text-align: center;
+    padding: 10px 0;
+}
+
+#menu ul li:hover {
+    cursor: pointer;
+}
+
+.section-devider {
+    border-bottom: 1px dotted #ff2266;
+    margin: 30px 0;
+}
+
+@media (min-width: 768px) {
+    #menu ul {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #menu ul li {
+        display: inline-block;
+        margin: 0 20px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    footer form input[type=email] {
+        padding: 0.6em 1em;
+        background: #ffffff;
+        ;
+        border: 1px solid transparent;
+        font-family: inherit;
+        font-size: 15px;
+        line-height: normal;
+        outline: none;
+    }
+
+    footer form input[type=submit] {
+        padding: 0.6em 1em;
+        background: var(--danger);
+        color: #ffffff;
+        border: 1px solid transparent;
+        font-family: inherit;
+        font-size: 15px;
+        line-height: normal;
+        outline: none;
+    }
+
+    footer a,
+    footer a:link,
+    footer a:visited {
+        color: #333;
+        font-size: 2em;
+        margin: 0 8px;
+        text-decoration: none;
+    }
+
+    footer a:hover {
+        color: #555;
+    }
+
+    /*custom BS*/
+    .dropdown-menu.show {
+        display: flex;
+        padding: 0.5rem 0.7rem;
+        transform: translateX(-44%);
+    }
+
+    .dropdown-item {
+        display: inliane-block;
+        width: auto;
+        float: left;
+        clear: none;
+        margin-right: 10px;
+        padding: 10px 10px;
+        text-align: left;
+    }
+
+    .dropdown-item: last-child {
+        margin-right: 0;
+    }
+}
