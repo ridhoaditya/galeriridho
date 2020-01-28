@@ -61,6 +61,7 @@ ul>li {
         text-transform: uppercase;
     }
 
+    /*footer input*/
     footer form input[type=email] {
         padding: 0.6em 1em;
         background: #ffffff;
