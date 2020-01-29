@@ -97,7 +97,7 @@ ul > li {
         color: #555;
     }
 
-    /*custom BS*/
+    /*custom Boootstrap*/
     .dropdown-menu.show {
         display: flex;
         padding: 0.5rem 0.7rem;
